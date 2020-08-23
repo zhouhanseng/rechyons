@@ -27,9 +27,9 @@ class TestComponent extends React.Component<Props, {}> {
   }
 }
 
-const MapStateToProps = store => {
+const MapStateToProps = (store: {[key: string]: any}) => {
   return {
-    name: store[hyperstore.user.name]
+    name: store[hyperstore.user.name],
   };
 };
 

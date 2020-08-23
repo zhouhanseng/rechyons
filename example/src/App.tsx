@@ -47,7 +47,7 @@ let App: React.FC<Props> = function(props) {
   );
 };
 
-const MapStateToProps = store => {
+const MapStateToProps = (store: {[key: string]: any}) => {
   return {
     username: store[hyperstore.user.name]
   };
