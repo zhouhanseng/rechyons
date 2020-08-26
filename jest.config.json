@@ -4,5 +4,6 @@
   },
   "setupFilesAfterEnv": ["@testing-library/jest-dom/extend-expect"],
   "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|test.tsx?)$",
-  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "modulePathIgnorePatterns": ["/lib/"]
 }
